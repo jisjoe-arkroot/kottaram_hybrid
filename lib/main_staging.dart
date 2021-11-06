@@ -17,9 +17,6 @@ void main() {
       values: FlavorData(baseUrl: BASE_URL_STAGING),
     );
 
-    // await Firebase.initializeApp();
-    // Pass all uncaught errors from the framework to Crashlytics.
-    // FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
 
     await ThemeManager.initialise();
     await setupLocator(environment: Environment.test);

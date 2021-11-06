@@ -30,28 +30,18 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # Stacked Support
-  stacked: ^2.1.4
-  stacked_services: ^0.8.6
-  stacked_themes: ^0.3.2
+  stacked: 2.1.4
+  stacked_services: 0.8.6
+  stacked_themes:
 
   # Message Pop Up
-  flutter_easyloading: ^3.0.0
+  flutter_easyloading:
 
   # Local Storage
-  shared_preferences: ^2.0.5
-
-  # Firebase Support
-  firebase_core: ^1.1.1
-  firebase_auth: ^1.1.4
-  firebase_analytics: ^8.1.0
-  firebase_crashlytics: ^2.0.4
-
-  # Authentication Services
-  google_sign_in: ^5.0.3
-  flutter_facebook_auth: ^3.3.3+1
+  shared_preferences:
 
   # Pretty Printer
-  logger: ^1.0.0
+  logger:
 
 
 dev_dependencies:
@@ -59,10 +49,10 @@ dev_dependencies:
     sdk: flutter
 
   # Stacked Code Generator
-  stacked_generator: ^0.4.5
+  stacked_generator:
 
   # Code Generator
-  build_runner: ^2.0.3
+  build_runner:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

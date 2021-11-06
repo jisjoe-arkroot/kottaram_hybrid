@@ -13,11 +13,6 @@ import 'services/third_party/easyloading/easyloading.dart';
 void main() {
   runZonedGuarded<Future<void>>(() async {
     WidgetsFlutterBinding.ensureInitialized();
-
-    // await Firebase.initializeApp();
-    // Pass all uncaught errors from the framework to Crashlytics.
-    // FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
-
     await ThemeManager.initialise();
     await setupLocator();
 
@@ -26,7 +21,6 @@ void main() {
 }
 
 void reportError(Object error, StackTrace stackTrace) async {
-  // FirebaseCrashlytics.instance.recordError(error,stackTrace);
   debugPrint(
       '(ERROR) main.dart:main() error: ${error.toString()} stack-trace: ${stackTrace.toString()}');
 }
