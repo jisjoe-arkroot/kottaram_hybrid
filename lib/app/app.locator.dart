@@ -10,6 +10,7 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:stacked_themes/stacked_themes.dart';
+
 import '../services/local_storage/shared_prefs.dart';
 import '../services/third_party/easyloading/easyloading.dart';
 
@@ -27,5 +28,4 @@ Future setupLocator(
   locator.registerLazySingleton(() => ThemeService.getInstance());
   final sharedPrefsService = await SharedPrefsService.getInstance();
   locator.registerSingleton(sharedPrefsService);
-
 }

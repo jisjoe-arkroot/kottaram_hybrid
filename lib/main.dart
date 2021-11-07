@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_boiler_plate/app/app.locator.dart';
 import 'package:flutter_boiler_plate/ui/media/themes.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:stacked_themes/stacked_themes.dart';
 
+import 'app/app.locator.dart';
 import 'app/app.router.dart';
 import 'constants/strings.dart';
 import 'services/third_party/easyloading/easyloading.dart';

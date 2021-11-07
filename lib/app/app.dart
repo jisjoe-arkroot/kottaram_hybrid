@@ -25,8 +25,6 @@ import 'package:stacked_themes/stacked_themes.dart';
       classType: SharedPrefsService,
       presolveUsing: SharedPrefsService.getInstance,
     ),
-    Presolve(
-    ),
   ],
 )
 class AppSetup {

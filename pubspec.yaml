@@ -30,18 +30,18 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # Stacked Support
-  stacked: 2.1.4
-  stacked_services: 0.8.6
-  stacked_themes:
+  stacked: 2.1.6
+  stacked_services: ^0.8.6
+  stacked_themes: ^0.3.2
 
   # Message Pop Up
-  flutter_easyloading:
+  flutter_easyloading: ^3.0.0
 
   # Local Storage
-  shared_preferences:
+  shared_preferences: ^2.0.5
 
   # Pretty Printer
-  logger:
+  logger: ^1.0.0
 
 
 dev_dependencies:
@@ -49,10 +49,10 @@ dev_dependencies:
     sdk: flutter
 
   # Stacked Code Generator
-  stacked_generator:
+  stacked_generator: ^0.4.5
 
   # Code Generator
-  build_runner:
+  build_runner: ^2.0.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
